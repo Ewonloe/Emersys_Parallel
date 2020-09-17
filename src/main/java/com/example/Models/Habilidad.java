@@ -1,18 +1,16 @@
-package Models;
-
-import java.math.BigDecimal;
+package com.example.Models;
 
 public class Habilidad {
 
-    private BigDecimal id;
+    private int cod;//Columna a la que se le aplica hash
     private String descrip;
 
-    public BigDecimal getId() {
-        return id;
+    public int getCod() {
+        return cod;
     }
 
-    public void setId(BigDecimal id) {
-        this.id = id;
+    public void setCod(int cod) {
+        this.cod = cod;
     }
 
     public String getDescrip() {
